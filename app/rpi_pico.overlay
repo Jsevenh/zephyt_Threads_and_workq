@@ -1,0 +1,12 @@
+/{
+    leds{
+    led_user:led_1{
+        gpios=<&gpio0 5 GPIO_ACTIVE_HIGH>;
+        label="led2";
+    };
+    };
+    aliases{
+       led=&led_user;
+    };
+
+};
